@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
 	def home
-		@greeting = "Home action says: Hello world!"
+		@greeting = "Hello from Distelli!"
 	end
 end
