@@ -31,4 +31,4 @@ zchase/simpleRuby:
   Exec:
     - source ~/.rvm/scripts/rvm
     - rvm use 1.9.3
-    - ./bundle/bin/thin start -p $PORT -e $STAGE
+    - rails s -e production
